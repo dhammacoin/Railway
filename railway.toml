@@ -1,5 +1,6 @@
 [build]
-builder = "dockerfile"
+builder = "docker"
+dockerfilePath = "Dockerfile"
 
 [deploy]
-startCommand = "tinode -config=/tinode.conf"
+restartPolicyType = "on_failure"
