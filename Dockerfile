@@ -1,2 +1,5 @@
 FROM tinode/tinode:latest
-EXPOSE 6060
+
+WORKDIR /opt/tinode
+
+CMD ["/opt/tinode/entrypoint.sh"]
