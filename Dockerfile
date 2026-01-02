@@ -1,5 +1,1 @@
-[build]
-builder = "dockerfile"
-
-[deploy]
-startCommand = "tinode -config=/tinode.conf"
+FROM tinode/tinode-mongodb:latest
