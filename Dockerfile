@@ -1,1 +1,1 @@
-FROM tinode/tinode-mongodb:latest
+tinode/tinode-mongodb:latest
