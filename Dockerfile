@@ -1,3 +1,2 @@
 FROM tinode/tinode-mongodb:latest
-ENTRYPOINT []
-CMD ["tinode", "-config=/tinode.conf"]
+CMD ["/usr/local/bin/tinode", "-config=/tinode.conf"]
