@@ -1,1 +1,2 @@
-FROM tinode/tinode-mongodb:latest
+FROM tinode/tinode:latest
+EXPOSE 6060
